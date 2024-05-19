@@ -1,13 +1,20 @@
-# docsify-themeable
+GitHub Profile: [github.com/montepjones](https://github.com/montepjones)
 
-> A delightfully simple theme system for [docsify.js](https://docsify.js.org)
+Description: Entry-level Remote Software Developer and Python Programmer with experience in IT automation and software implementation support. Proficient in Python, Bash, SQL, and various platforms and tools. Skilled in troubleshooting, problem resolution, and following the Software Development Life Cycle (SDLC). Actively pursuing Kubernetes certification.
 
-- Customize using CSS custom properties
-- Zero packages to install or build
-- Improved desktop and mobile experience
-- Multiple themes available
-- Legacy browser support (IE11+)
+Feel free to adjust the description and details as needed!
 
-[Get Started](introduction)
-[Demo Sandbox](https://codesandbox.io/s/xv36w4695o)
-[GitHub](https://github.com/jhildenbiddle/docsify-themeable)
+
+
+👋 Hi, I’m @montepjones
+
+👀 I’m interested in software development, IT automation, problem-solving, and collaborating on innovative projects.
+
+🌱 I’m currently learning Kubernetes and continuously enhancing my skills in Python programming and software development methodologies.
+
+💞️ I’m looking to collaborate on projects related to automation, software development, and IT solutions that require creative problem-solving.
+
+📫 How to reach me:
+
+Email: montepjones@gmail.com
+LinkedIn: linkedin.com/in/montepjones
