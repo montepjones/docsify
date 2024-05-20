@@ -1,8 +1,6 @@
-GitHub Profile: [github.com/montepjones](https://github.com/montepjones)
+# Monte Jones Home
 
-Description: Entry-level Remote Software Developer and Python Programmer with experience in IT automation and software implementation support. Proficient in Python, Bash, SQL, and various platforms and tools. Skilled in troubleshooting, problem resolution, and following the Software Development Life Cycle (SDLC). Actively pursuing Kubernetes certification.
-
-Feel free to adjust the description and details as needed!
+> Monte Paul Jones Home
 
 
 
@@ -14,7 +12,10 @@ Feel free to adjust the description and details as needed!
 
 💞️ I’m looking to collaborate on projects related to automation, software development, and IT solutions that require creative problem-solving.
 
+
 📫 How to reach me:
 
-Email: montepjones@gmail.com
-LinkedIn: linkedin.com/in/montepjones
+[LinkedIn] (http//linkedin.com/in/montepjones)
+[GitHub](https://github.com/montepjones/)
+[Website Generator](https://docsify.js.org/)
+[Theme Docsify-themeable](https://github.com/jhildenbiddle/docsify-themeable)
