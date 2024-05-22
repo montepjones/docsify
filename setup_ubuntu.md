@@ -57,12 +57,16 @@ brew install gcc wget
 brew install zsh
 ```
 
-### Mark sure brew can be used in zsh
+### Mark sure brew can be used in zsh   
 
 ```bash
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/mjones/.zshrc
 ```
+### Install oh-my-zsh
 
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 ### Install Powerlevel10 theme
 
 ```bash
