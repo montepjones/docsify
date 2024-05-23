@@ -70,9 +70,16 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### Install Powerlevel10 theme
 
 ```bash
-brew install powerlevel10k                                                                                                                
-echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
+Then you need to enable it, change the value of ZSH_THEME to following in ~/.zshrc file :
+
+```bash
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+```
+download some nerdfonts are installed and configured in window terminal
+
 
 ### Make zsh your default shell to zsh
 
