@@ -1,6 +1,7 @@
 - [Introduction](introduction) <!-- markdownlint-disable-line first-line-heading -->
 - [WSL Setup](wsl_setup.md)
 - [Setup Ubuntu](setup_ubuntu.md)
+- [Terminal Utilities](terminal_utilities.md)
 
 - **Links**
 
