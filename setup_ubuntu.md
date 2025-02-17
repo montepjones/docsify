@@ -8,7 +8,7 @@ To make sure the Packages and Repos available on your Linux WSL app are up to da
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Install tools needed for Brew
+### Install tools needed for Brew
 
 There are few tools that we need to have on the system such as curl in order to download
 and install HomeBrew on our WSL 1 or 2 Linux apps. Therefore run below command with sudo access.
@@ -17,7 +17,7 @@ and install HomeBrew on our WSL 1 or 2 Linux apps. Therefore run below command w
 sudo apt-get install build-essential curl file git -y
 ```
 
-## Install the Package Manager Brew
+### Install the Package Manager Brew
 
 Brew is a popular Mac package installer so why not use it on Ubuntu
 
@@ -56,35 +56,53 @@ brew install gcc wget
 ```bash
 brew install zsh
 ```
-
-### Mark sure brew can be used in zsh   
-
+### Make  sure brew can be used in zsh
 ```bash
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/mjones/.zshrc
-```
-### Install oh-my-zsh
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-### Install Powerlevel10 theme
-
-```bash
- git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-```
-Then you need to enable it, change the value of ZSH_THEME to following in ~/.zshrc file :
-
-```bash
-ZSH_THEME="powerlevel10k/powerlevel10k"
 
 ```
-download some nerdfonts are installed and configured in window terminal
-
-
-### Make zsh your default shell to zsh
-
-use `which zsh` to find you zsh path and upate the accordingly
-
+### Install oh my posh
 ```bash
-sudo usermod -s /home/linuxbrew/.linuxbrew/bin/zsh monte
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+```
+### install themem for oh my posh
+```
+(echo; echo 'eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/jandedobbeleer.omp.json)"') >> /home/mjones/.zshrc
+```
+
+### setup zsh history  needs to be added to zshrc
+```bash
+# history setup
+HISTFILE=$HOME/.zhistory
+SAVEHIST=1000
+HISTSIZE=999
+setopt share_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_verify
+
+# completion using arrow keys (based on history)
+bindkey '^[[A' history-search-backward
+bindkey '^[[B' history-search-forward
+```
+### setup zsh-autocomplettions
+Install it. 
+```bash
+brew install zsh-autosuggestions
+```
+Then run the following:
+```bash
+echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+```
+
+### Setup zsh-syntax-highlighting
+This will provide some really nice syntax highlighting as you type out commands.
+
+Install it 
+```bash
+brew install zsh-syntax-highlighting
+```
+Then run:
+```bash
+echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 ```
