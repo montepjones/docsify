@@ -2,7 +2,7 @@
 - [WSL Setup](wsl_setup.md)
 - [Setup Ubuntu](setup_ubuntu.md)
 - [Terminal Utilities](terminal_utilities.md)
-
+- [Git Setup](git_setup.md)
 - **Links**
 
 - [![Github](assets/img/github.svg)Github](https://github.com/montepjones/)
