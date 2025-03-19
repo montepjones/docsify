@@ -15,7 +15,7 @@
 
 📫 How to reach me:
 
-[LinkedIn] (http//linkedin.com/in/montepjones)
+[LinkedIn](http//linkedin.com/in/montepjones)
 [GitHub](https://github.com/montepjones/)
 [Website Generator](https://docsify.js.org/)
 [Theme Docsify-themeable](https://github.com/jhildenbiddle/docsify-themeable)
